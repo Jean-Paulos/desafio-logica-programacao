@@ -1,5 +1,7 @@
 # Desafio de Lógica de Programação - Dio.me
 
+O "Sistema de Registro e Classificação de Heróis" é um projeto interativo que permite que aspirantes a heróis se registrem em uma guilda misteriosa e descubram seu verdadeiro potencial. O sistema avalia o nível de experiência (XP) dos heróis e os classifica em diferentes categorias de acordo com seu XP.
+
 ## Descrição do Desafio
 Este projeto contém a minha solução para o desafio de lógica de programação proposto Felipão da DIO. O desafio consiste em:
 
@@ -22,7 +24,8 @@ Ao final deve se exibir uma mensagem:
 
 ## O que foi Utilizado
 - **Linguagem**: Python
-- **Biblioteca**: random (nativa do Python)
+- **Biblioteca**: Random (nativa do Python)
+- **Conhecimentos Aplicados:** Variáveis, Operadores e Estruturas de Decição
 
 ## Imagem
 ![Saida do terminal](https://files.catbox.moe/tod42g.png)
