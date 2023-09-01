@@ -1,9 +1,9 @@
 import random
 
 print("Olá, novo Herói! Bem-vindo à nossa guilda.")
-escolha = input("Deseja se registrar? (sim/não): ")
+escolha = input("Deseja se registrar? (sim/não): ").lower()
 
-if escolha == "sim" or escolha == "Sim":
+if escolha == "sim":
     nome = input("Ótimo! Seu nome, por favor?: ")
     print("Bem-vindo,", nome + "!")
     print("Nossa guilda classifica os Heróis pelo XP. Quanto mais XP, maior o seu rank.\nUse está esfera de cristal para medir seu XP.")
@@ -22,12 +22,12 @@ if escolha == "sim" or escolha == "Sim":
     elif xp >= 8001 and xp <= 9000:
         print(f"O seu poder é de 7000... espera, agora é de 8000 e continua aumentando! ...O SEU XP É DE MAIS DE 8000 *QUEBRA O APARELHO*")
         print(f"*atendente está pálido e mudo, mas você consegue ver o número {xp} na esfera rachada, o que equivale ao rank Ascendente!")
-    elif xp >= 9001 and xp <= 1000:
+    elif xp >= 9001 and xp <= 10000:
       print(f"{xp}?! R-rank I-i-mortal?! *desmaia* ")
     elif xp >= 10001:
         print(f"Hm? {xp}? ?  .... humanos podem chegar nesse número de XP? Isso é um nível além dos imortais das lendas!")
         print(f"Parabéns Herói! Você é Rank Radiante, infelizmente esse é o máximo. Você chegou ao topo!")
-elif escolha == "não" or escolha == "Não":
+elif escolha == "não" or escolha == "nao":
     print("Claro, nos procure quando quiser.")
 else:
     print("Desculpe, não entendi sua escolha.")
