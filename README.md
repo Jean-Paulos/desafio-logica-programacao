@@ -25,7 +25,7 @@ Ao final deve se exibir uma mensagem:
 ## O que foi Utilizado
 - **Linguagem**: Python
 - **Biblioteca**: Random (nativa do Python)
-- **Conhecimentos Aplicados:** Variáveis, Operadores e Estruturas de Decição
+- **Conhecimentos Aplicados:** Variáveis, Operadores e Estruturas de Decisão
 
 ## Imagem
 ![Saida do terminal](https://files.catbox.moe/tod42g.png)
